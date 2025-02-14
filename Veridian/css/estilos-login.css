@@ -1,0 +1,160 @@
+body {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #131d38;
+}
+
+input:focus, textarea:focus {
+    border-color: rgb(21, 4, 98) !important;
+}
+
+input:invalid, textarea:invalid {
+    border-color: red;
+}
+
+input:valid, textarea:valid {
+    border-color: green;
+}
+
+@font-face {
+    font-family: 'TT Commons Thin';
+    src: url(../assets/fonts/TT\ Commons\ Thin.otf);
+}
+
+@font-face {
+    font-family: 'TT Commons Regular';
+    src: url(../assets/fonts/TT\ Commons\ Regular.otf);
+}
+
+header {
+    width: 100%;
+    background-color: #131d38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: -1px 10px 10px rgba(0,0,8);
+    border-bottom: solid rgba(0,0,8) 8px;
+}
+
+.logo-imagem {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.logo-imagem2 {
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    font-size: 20px;
+    font-family: "TT Commons Thin";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    border-bottom: white solid 2px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    border: solid 10px black;
+    margin-top: -40px;
+    background-color: #131d38;
+    color: white;
+}
+
+.main-content {
+    background-image: url(../assets/images/misc/Fundo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+}
+
+.login-box {
+    border: solid 5px #3665a9;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: -100px;
+    padding: 100px;
+    background-color: white;
+}
+
+.login-box-logo {
+    width: 100px; 
+    height: 100px;
+    border: solid #3665a9 8px;
+    padding: 8px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131d38;
+    position: absolute;
+    left: 50%;
+    top: 100px; 
+    transform: translateX(-50%);
+}
+
+.login-box-logo img {
+    width: 70px; 
+    height: auto;
+    margin-top: 8px;
+}
+
+.login-box h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'TT Commons Regular';
+    color: #123988;
+}
+
+.login-box form input {
+    text-align: center;
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.submit-action {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-box p {
+    text-align: center;
+    color: #76bad4;
+    text-decoration: underline;
+    font-family: 'TT Commons Regular';
+}
+
+.login-box a:active {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}

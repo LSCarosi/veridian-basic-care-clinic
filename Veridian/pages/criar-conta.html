@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Criar Conta - Sistema Veridian</title>
+    <meta charset="utf-8">
+    <meta name="author" content="xxx">
+    <meta name="description" content="xxx">
+    <meta name="keywords" content="xxx">
+
+    <link href="../css/estilos-criar-conta.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header-main">
+
+        <header>
+
+            <div class="container-logo">
+                <div class="logo-imagem">
+                    <a href="index.html"><img src="../assets/images/misc/Logo.png"></a>
+                </div>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="ajuda.html">Ajuda</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                </ul>
+            </div>
+
+            <div class="container-logo">
+                <div class="logo-imagem2">
+                    <a href="login.html"><img src="../assets/images/misc/Customer.png"></a>
+                </div>
+            </div>
+        </header>
+
+    </section>
+
+    <section class="main-content">
+        <div class="login-box">
+            <div class="login-box-logo">
+                <img src="../assets/images/Logo.png">
+            </div>
+            <form>
+                <h1>Criar Conta</h1>
+                <p>Para criar sua conta, preencha os campos abaixo</p>
+
+                <input type="text" name="nome" id="nome" placeholder="Insira seu nome" required maxlength="50">
+                <input type="text" name="cpf" id="cpf" 
+                pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="Insira seu CPF" required maxlength="14">
+                <input type="email" name="email" id="email" placeholder="Insira seu e-mail" required maxlength="50">
+                <input type="password" name="senha" id="senha" placeholder="Insira sua senha" required maxlength="30">
+                <div class="submit-action">
+                    <input type="submit" name="acao" id="acao" value="Confirmar e criar conta!" onclick="cadastrar()">
+                </div>
+            </form>
+        </div>
+        <section class="footer">
+            <footer>
+                <p>Copyright &copy; 2022.</p>
+            </footer>
+            <script src="../js/script-criar-conta.js"></script>
+        </section>
+    </section>
+</body>
+
+</html>

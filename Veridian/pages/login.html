@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Login - Sistema Veridian</title>
+    <meta charset="utf-8">
+    <meta name="author" content="xxx">
+    <meta name="description" content="xxx">
+    <meta name="keywords" content="xxx">
+
+    <link href="../css/estilos-login.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header-main">
+        <header>
+            <div class="container-logo">
+                <div class="logo-imagem">
+                    <a href="index.html"><img src="../assets/images/misc/Logo.png"></a>
+                </div>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="ajuda.html">Ajuda</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                </ul>
+            </div>
+
+            <div class="container-logo">
+                <div class="logo-imagem2">
+                    <a href="login.html"><img src="../assets/images/misc/Customer.png"></a>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <section class="main-content">
+        <div class="login-box">
+            <div class="login-box-logo">
+                <img src="../assets/images/misc/Logo.png">
+            </div>
+            <form>
+                <h1>Já possui conta?</h1>
+                <input type="text" name="email" id="em" placeholder="Insira seu e-mail" required maxlength="50">
+                <input type="password" name="senha" id="sen" placeholder="Insira sua senha" maxlength="30" required>
+                <div class="submit-action">
+                    <input type="submit" name="acao" id="aa" value="Acessar conta" onclick="acessar()">
+                </div>
+                <p><a href="criar-conta.html"><strong>Clique aqui para se cadastrar</strong></a></p>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer>
+            <p>Copyright &copy; 2022.</p>
+        </footer>
+        <script src="../js/script-login.js"></script>
+    </section>
+
+</body>
+
+</html>

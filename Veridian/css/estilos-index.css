@@ -1,0 +1,181 @@
+body {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #131d38;
+    color: white;
+}
+
+@font-face {
+    font-family: 'TT Commons Thin';
+    src: url(../assets/fonts/TT\ Commons\ Thin.otf);
+}
+
+@font-face {
+    font-family: 'TT Commons Regular';
+    src: url(../assets/fonts/TT\ Commons\ Regular.otf);
+}
+
+header {
+    width: 100%;
+    background-color: #131d38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: -1px 10px 10px rgba(0,0,8);
+}
+
+.logo-imagem {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.logo-imagem2 {
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    font-size: 20px;
+    font-family: "TT Commons Thin";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    border-bottom: white solid 2px;
+}
+
+.main-content {
+    padding-top: 220px;
+    padding-bottom: 220px;
+    margin-top: 8px;
+    text-align: center;
+    background-image: url(../assets/images/misc/Fundo.png);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: white solid 1px;
+}
+
+.main-content h1 {
+    font-size: 70px;
+    font-family: arial;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+.main-content h4 {
+    font-size: 30px;
+    font-family: arial;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+.main-content-article {
+    background-image: url(../assets/images/misc/Showcase.png);
+    padding-top: 180px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    margin-top: -28px;
+}
+
+.main-content-article h1 {
+    font-size: 70px;
+    font-family: arial;
+    margin-bottom: 50px;
+    color: white;
+    margin-left: 150px;
+}
+
+.main-content-article h4 {
+    font-size: 40px;
+    font-family: "TT Commons Regular";
+    color: white;
+    margin-left: 180px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.main-contact {
+    margin-top: -50px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.main-contact-items {
+    background-image: url(../assets/images/misc/Fundo.png);
+    width: 50%;
+    height: 50%;
+    padding-bottom: 67px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    box-sizing: border-box;
+}
+
+.main-contact-image {
+    background-image: url(../assets/images/misc/Fundo04.png);
+    width: 50%;
+    height: 50%;
+    padding-bottom: 349px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    box-sizing: border-box;
+}
+
+.main-contact-items h3 {
+    font-size: 55px;
+    text-align: center;
+    font-family: 'TT Commons Regular';
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 4px 4px black;
+}
+
+.main-contact-items p {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.main-contact-items span {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    border: solid 10px black;
+    margin-top: -40px;
+    background-color: #131d38;
+}

@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #131d38;
+    color: white;
+}
+
+@font-face {
+    font-family: 'TT Commons Thin';
+    src: url(../assets/fonts/TT\ Commons\ Thin.otf);
+}
+
+@font-face {
+    font-family: 'TT Commons Regular';
+    src: url(../assets/fonts/TT\ Commons\ Regular.otf);
+}
+
+header {
+    width: 100%;
+    background-color: #131d38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: -1px 10px 10px rgba(0,0,8);
+    border-bottom: solid rgba(0,0,8) 8px;
+}
+
+.logo-imagem {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.logo-imagem2 {
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    font-size: 20px;
+    font-family: "TT Commons Thin";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    border-bottom: white solid 2px;
+}
+
+.main-content {
+    background-image: url(../assets/images/misc/Fundo.png);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px;
+    margin-bottom: -50px;
+}
+
+.main-content h1 {
+    text-align: right;
+    font-size: 100px;
+    margin-top: -100px;
+    font-family: 'TT Commons Regular';
+    text-shadow: 2px 2px black;
+}
+
+.main-content h1 span {
+    font-size: 85px;
+}
+
+.main-content p {
+    font-size: 60px;
+    font-family: 'TT Commons Regular';
+    text-shadow: 2px 2px black;
+    text-align: right;
+}
+
+.main-content-text {
+    font-size: 40px;
+    font-family: 'TT Commons Regular';
+    text-shadow: 2px 2px black;
+}
+
+.google-content {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.google-content h2 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: -100px;
+    font-family: 'TT Commons Regular';
+    text-shadow: 2px 2px black;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    border: solid 10px black;
+    margin-top: -40px;
+    background-color: #131d38;
+}
